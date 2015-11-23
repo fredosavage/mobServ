@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_abcd" tools:context=".abcd">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fredrik"
+        android:id="@+id/buttonFredrik"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="a" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eva"
+        android:id="@+id/buttonEva"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonFredrik"
+        android:layout_toEndOf="@+id/buttonFredrik"
+        android:onClick="b" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anders"
+        android:id="@+id/buttonAnders"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonEva"
+        android:layout_toEndOf="@+id/buttonEva"
+        android:onClick="c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fadwa"
+        android:id="@+id/buttonFadwa"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonAnders"
+        android:layout_toEndOf="@+id/buttonAnders"
+        android:onClick="d" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Antonio"
+        android:id="@+id/buttonAntonio"
+        android:layout_below="@+id/buttonFredrik"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="e" />
+</RelativeLayout>
