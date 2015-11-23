@@ -13,6 +13,8 @@ public class abcd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //testEva
+        int test = 0;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_abcd);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
